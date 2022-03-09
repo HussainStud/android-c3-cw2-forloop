@@ -1,0 +1,21 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    
+        int summaryOfNumbers = 0; 
+        
+        for (int i = 0; i <=10 ; i++) 
+        {
+            int mixureOfNumbersOrSomething = summaryOfNumbers + i;
+            
+            System.out.println(i);
+            
+            summaryOfNumbers = mixureOfNumbersOrSomething;    
+        }
+        
+        System.out.println(summaryOfNumbers);
+	}
+	
+	
+
+}
